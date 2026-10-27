@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title>Tables in CSS</title>
+    <meta charset='utf-8'>
+	  <style>
+		  body{
+			 background-color: #333;
+			 color:#ccc; 
+			 font-family: verdana, arial, helvetica, sans-serif; 
+		  }
+		  #content {
+			border: 1px solid #ccc; 
+			margin: 2% auto; 
+			padding: 30px 50px 90px; 
+			width: 50%; 
+			text-align: justify;
+		  }
+		  #header{
+			font-size:40px;
+			text-align:center;
+			border-bottom: 1px solid #ccc;
+		  }
+		  .fail{
+			  color:#f00;
+		  }
+		  #navigation{
+			text-align:center;
+		
+		  }
+		  #footer{
+			padding:10px;
+			font-size:10px;
+			border-top: 1px solid #ccc;
+				  
+		  }
+		  
+		  .bottomLine{
+		  border-bottom: 1px solid #ccc;
+		  }
+	  </style>
+	  
+  </head>
+  <body>   
+	  <header id="header">
+		<h1>HTML Tables</h1>
+	  </header>
+	  
+	 
+	  <main id = "content">
+		  <section class="bottomLine">
+			  <h2>When to Use a Table</h2>
+			   <ul>
+				 <li> There are many situations where tables might come in handy when developing your projects: 
+				 <ul>
+				   <li>You can use tables when you want to compare and contrast data with shared characteristics like the differences between A and B or scores of team X to those of Y.</li>
+				   <li> You can also use one if you want to give an overview of numerical data. A good example of this is when you are trying to represent marks of students or even the scores of teams like the <a href="../epl.doc">EPL</a> table.</li>
+				   <li> And a table can help readers quickly find specific information laid out in a clear way. For example if you are going through a long list of name a table can be used to sub divide the list which make it easy for readers.</li>
+				 </ul>
+				 </li>
+			   </ul>
+
+
+			  <p>Tables are a great way to represent tabular data.
+				  You can also add some styling to make them look good and present the data clearly with the help of a CSS file.
+				  <br>Before we wrap up, let's do one more task:  <br>
+				  Create the following table using what we learned:
+			  </p>
+		  </section>
+		  <section  class="bottomLine">
+			 <h2>When should you NOT use HTML tables?</h2>
+			<p>HTML tables should be used for tabular data — this is what they are designed for. Unfortunately, a lot of people used to use HTML tables to lay out web pages, e.g. one row to contain the header, one row to contain the content columns, one row to contain the footer, etc. You can find more details and an example at Page Layouts in our <span class="fail">Accessibility Learning Module</span>. This was commonly used because CSS support across browsers used to be terrible; table layouts are much less common nowadays, but you might still see them in some corners of the web.</p>
+
+			<p>In short, using tables for layout rather than CSS layout techniques is a bad idea.</p>
+			<p>For more information on tables please visit <a href="http://www.w3schools.com"> w3schools.com.</a></p>
+		  </section>
+	  </main>
+	  <footer id="footer">
+		 &copy; <a href="mailto:">AOB</a> . All rights reserved .
+	   </footer>
+  </body>
+</html>
